@@ -1,12 +1,13 @@
-import NavBar from "../components/NavBar"
+// import NavBar from "../components/NavBar"
+import VerticalNav from "../components/VerticalNav"
 
 function Home() {
 
 
   return (
     <>
-    <NavBar/>
-    this is the home page
+    <VerticalNav/>
+    {/* <NavBar/> */}
     </>
   )
 }
