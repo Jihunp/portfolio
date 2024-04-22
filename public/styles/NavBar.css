@@ -1,0 +1,35 @@
+
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.li-none {
+  list-style: none;
+}
+.txt-decoration-none {
+  text-decoration: none;
+}
+.p-right-10 {
+  padding-right: 10px;
+}
+.px-auto {
+  padding: auto;
+}
+.m-none {
+  margin: none;
+}
+.m-10 {
+  margin: 10px;
+}
+.mx-auto {
+  margin: auto;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
