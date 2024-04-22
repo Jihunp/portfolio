@@ -1,5 +1,7 @@
 // import NavBar from "../components/NavBar"
 // import VerticalNav from "../components/VerticalNav"
+// import aniie from '../assets/aniie.jpg'
+
 import NavBar from "../components/NavBar"
 function Home() {
 
@@ -8,6 +10,7 @@ function Home() {
     <>
     {/* <VerticalNav/> */}
     <NavBar/>
+    {/* <img src={aniie}></img> */}
     </>
   )
 }
