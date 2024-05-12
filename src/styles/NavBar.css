@@ -7,6 +7,7 @@
   justify-content: center;
   align-self: center;
   z-index: 100;
+  font-family: Roboto, sans-serif;
 }
 
 .navbar__circle {
@@ -34,6 +35,13 @@
 
 .navbar__link {
   text-decoration: none;
-  color: black;
+  color: white;
   font: 900;
+  transition: color 0.3s;
 }
+
+.navbar__link:hover {
+  color: blueviolet; /* Change the color to whatever you prefer on hover */
+}
+
+

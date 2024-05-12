@@ -3,9 +3,9 @@
 // import aniie from '../assets/aniie.jpg'
 
 import NavBar from "../components/NavBar"
+import "../styles/Home.css"
+
 function Home() {
-
-
   return (
     <>
     {/* <VerticalNav/> */}
