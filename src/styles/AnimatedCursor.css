@@ -1,7 +1,7 @@
-body,
-body * {
-  cursor: none;
+body, * {
+  cursor: auto;
 }
+
 body {
   font-family: Montserrat, sans-serif;
 }
@@ -22,23 +22,23 @@ body {
 
 .shape.shape-1 {
   background: #005ffe;
-  width: 650px;
-  height: 650px;
-  margin: -325px 0 0 -325px;
+  width: 300px;
+  height: 300px;
+  margin: -150px 0 0 -150px;
 }
 
 .shape.shape-2 {
   background: #ffe5e3;
-  width: 440px;
-  height: 440px;
-  margin: -220px 0 0 -220px;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
 }
 
 .shape.shape-3 {
   background: #ffcc57;
-  width: 270px;
-  height: 270px;
-  margin: -135px 0 0 -135px;
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 0 -60px;
 }
 
 .content {
@@ -61,12 +61,15 @@ body {
   margin: 0;
   text-align: center;
 }
+.animated-word:hover {
+  cursor: none;
+}
 
 .cursor {
   position: fixed;
   background: #2128bd;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin: -10px 0 0 -10px;
   border-radius: 50%;
   will-change: transform;
@@ -74,6 +77,7 @@ body {
   pointer-events: none;
   z-index: 10000;
 }
+
 
 ::selection {
   color: #fff;

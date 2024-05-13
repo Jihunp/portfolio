@@ -4,6 +4,7 @@ import gsap from 'gsap'
 
 function AnimatedCursor () {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0})
+  const [isAnimatedWord, setAnimatedWord] = useState(false);
   useEffect(() => {
     const handleMouse = (event) => {
       const mouseX = event.clientX;
@@ -25,15 +26,24 @@ function AnimatedCursor () {
     document.body.addEventListener("mousemove", handleMouse);
   }, [])
 
+  const handleMouseEnter = () => {
+    setAnimatedWord(true);
+  };
+
+  const handleMouseLeave = () => {
+    setAnimatedWord(false);
+  };
+
   return (
     <div className='shapes'>
       <div className='shape shape-1'></div>
       <div className='shape shape-2'></div>
       <div className='shape shape-3'></div>
       <div className='content'>
-        <h1 className='animated-word'>Edward Park</h1>
+        <h1 className='animated-word' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Edward Park</h1>
       </div>
-      <div className='cursor'></div>
+      {/* {isAnimatedWord ? <div className=' cursor-word'></div> : <div className='cursor'></div>} */}
+      {isAnimatedWord ? <div className='cursor cursor-word'></div> : null}
     </div>
   )
 }
