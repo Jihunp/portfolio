@@ -41,8 +41,8 @@ function AnimatedCursor () {
       <div className='shape shape-3'></div>
       <div className='content'>
         <h1 className='animated-word' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Edward Park</h1>
+        <h4 className='animated-word-subtitle' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Software Deveoper, Front End & Full Stack</h4>
       </div>
-      {/* {isAnimatedWord ? <div className=' cursor-word'></div> : <div className='cursor'></div>} */}
       {isAnimatedWord ? <div className='cursor cursor-word'></div> : null}
     </div>
   )

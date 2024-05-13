@@ -46,6 +46,7 @@ body {
   left: 0;
   position: absolute;
   display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -60,10 +61,20 @@ body {
   color: #000;
   margin: 0;
   text-align: center;
+  padding-top: 100px;
 }
 .animated-word:hover {
   cursor: none;
 }
+
+.animated-word-subtitle {
+  margin: 0;
+}
+
+.animated-word-subtitle:hover {
+  cursor: none;
+}
+
 
 .cursor {
   position: fixed;
