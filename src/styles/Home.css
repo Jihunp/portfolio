@@ -1,4 +1,4 @@
-body {
+/* body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -15,4 +15,48 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+} */
+
+/* .home-border {
+  border: 2px red;
+  margin: 30px;
+  z-index: 100;
+  position: relative;
+} */
+
+
+.homepage {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.justify-content-ctr {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-0 {
+  margin: 0;
+}
+.mx-top-40 {
+  margin: 40px 0 0 0;
+}
+.px-0 {
+  padding: 0;
+}
+.test {
+  align-self: center;
+}
+
+/* cursor */
+* {
+
 }
