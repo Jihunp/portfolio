@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "../styles/AnimatedCursor.css"
+import "../App.css"
 import gsap from 'gsap'
 
 function AnimatedCursor () {

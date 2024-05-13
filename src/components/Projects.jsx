@@ -12,7 +12,6 @@ function Projects() {
         <div className="card"> magic</div>
         <div className="card"> magic</div>
       </div>
-
     </div>
   )
 }

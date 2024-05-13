@@ -1,9 +1,15 @@
-body,
+/* body,
 body * {
   cursor: none;
-}
+} */
 
 :root {
   --card-height: 55vh;
   --card-width: calc(var(--card-height) / 1.5);
+  --primary-color: #00CFD4; /* Mystery Van Blue */
+  --second-color: #00E304; /* Mystery Van Green */
+  --third-color: #FF8D00; /* Mystery Van Orange */
+  --accent-color: #966A00; /* Scooby Brown */
+  --highlight-color: #76A2CA; /* Scooby Blue */
+  --background-color: #F8F9FA; /* Off White */
 }
