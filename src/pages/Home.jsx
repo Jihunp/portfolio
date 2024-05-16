@@ -19,7 +19,7 @@ function Home() {
         <AnimatedCursor/>
         <div className=" justify-content-ctr mx-top-40 px-0 txt-center">
           <h1>My Expertise</h1>
-          <h1>My Projects</h1>
+          <h1 className="f-size-10 mx-bot-40 c-highlight">My Projects</h1>
           <Projects></Projects>
           <h1>My Experience</h1>
 

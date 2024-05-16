@@ -5,11 +5,11 @@
 }
 
 .card {
-  background: #191c29;
+  background: #fff;
   width: var(--card-width);
   height: var(--card-height);
-  padding: 3px;
-  margin: 10px;
+  padding: 1vw;
+  margin: 1vw;
   position: relative;
   border-radius: 6px;
   justify-content: center;
@@ -21,11 +21,13 @@
   color: rgb(88 199 250 / 0%);
   cursor: pointer;
   font-family: cursive;
+  background-image: url('src/assets/aniie.jpg');
 }
 
 .card:hover {
   color: rgb(88 199 250 / 100%);
   transition: color 1s;
+  background-image: none;
 }
 .card:hover:before, .card:hover:after {
   animation: none;
@@ -39,9 +41,14 @@
   height: 102%;
   border-radius: 8px;
   background-image: linear-gradient(
+    var(--rotate),
+    rgba(var(--primary-color), 0.1),
+    rgba(var(--second-color), 0.1)) 43%,
+    rgba(var(--third-color) 0.1);
+  /* background-image: linear-gradient(
     var(--rotate)
-    , #5ddcff, #3c67e3 43%, #4e00c2);
-    position: absolute;
+    , #5ddcff, #3c67e3 43%, #4e00c2); */
+  position: absolute;
     z-index: -1;
     top: -1%;
     left: -2%;
@@ -62,7 +69,10 @@
   filter: blur(calc(var(--card-height) / 6));
   background-image: linear-gradient(
     var(--rotate)
-    , #5ddcff, #3c67e3 43%, #4e00c2);
+    , var(--primary-color), var(--second-color) 43%, var(--third-color));
+  /* background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #4e00c2); */
     opacity: 1;
   transition: opacity .5s;
   animation: spin 2.5s linear infinite;
@@ -78,7 +88,7 @@
 }
 
 a {
-  color: #212534;
+  color: #fff;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
