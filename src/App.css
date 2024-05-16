@@ -1,8 +1,3 @@
-/* body,
-body * {
-  cursor: none;
-} */
-
 :root {
   --card-height: 55vh;
   --card-width: calc(var(--card-height) / 1.5);
@@ -12,4 +7,8 @@ body * {
   --accent-color: #966A00; /* Scooby Brown */
   --highlight-color: #76A2CA; /* Scooby Blue */
   --background-color: #F8F9FA; /* Off White */
+}
+* {
+  margin: 0;
+  padding: 0;
 }

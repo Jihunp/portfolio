@@ -36,15 +36,19 @@ function AnimatedCursor () {
   };
 
   return (
-    <div className='shapes'>
-      <div className='shape shape-1'></div>
-      <div className='shape shape-2'></div>
-      <div className='shape shape-3'></div>
-      <div className='content'>
-        <h1 className='animated-word' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Edward Park</h1>
-        <h4 className='animated-word-subtitle' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Software Deveoper, Front End & Full Stack</h4>
+    <div>
+      <div className='shapes'>
+        <div className='shape shape-1'></div>
+        <div className='shape shape-2'></div>
+        <div className='shape shape-3'></div>
+        <div className='content'>
+          <h1 className='animated-word' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Edward Park</h1>
+          <h4 className='animated-word-subtitle' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Software Deveoper, Front End & Full Stack</h4>
+        </div>
+        {isAnimatedWord ? <div className='cursor cursor-word'></div> : null}
       </div>
-      {isAnimatedWord ? <div className='cursor cursor-word'></div> : null}
+        <h1>hello this is some code here</h1>
+      <div>Passionate about connecting people and writing functional code</div>
     </div>
   )
 }
