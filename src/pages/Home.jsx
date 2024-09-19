@@ -6,8 +6,10 @@
 import "../styles/Home.css"
 import React from 'react'
 import AnimatedCursor from "../components/AnimatedCursor"
-import NavBar from "../components/NavBar"
+// import NavBar from "../components/NavBar"
+import DisappearingNav from "../components/DisappearingNavBar"
 import Projects from "../components/Projects"
+import SpecialProjects from "../components/SpecialProjects"
 
 
 function Home() {
@@ -15,17 +17,18 @@ function Home() {
   return (
     <>
       <div className="homepage text-center">
-        <NavBar/>
+        {/* <NavBar/> */}
+        <DisappearingNav />
         <AnimatedCursor/>
         <div className=" justify-content-ctr mx-top-40 px-0 txt-center">
+          <div>
+            <div>this is box one</div>
+          </div>
           <h1>My Expertise</h1>
-          <h1>My Projects</h1>
+          <SpecialProjects></SpecialProjects>
           <Projects></Projects>
           <h1>My Experience</h1>
 
-          <h1>The Ed Talk</h1>
-          <h1 className="txt-center mx-0 px-0 test">Edward J. Park</h1>
-          <h4 className="txt-center mx-0 px-0 ">Software Deveoper, Front End & Full Stack</h4>
         </div>
       </div>
     </>

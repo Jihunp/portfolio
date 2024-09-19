@@ -60,6 +60,7 @@ body {
 
 .animated-word {
   font-size: 10vw;
+  /* font-size: 10vh; */
   font-weight: 900;
   color: #000;
   margin: 0;
@@ -73,6 +74,7 @@ body {
 .animated-word-subtitle {
   margin: 0;
   font-size: 2vw;
+  /* font-size: 2vh; */
 }
 
 .animated-word-subtitle:hover {

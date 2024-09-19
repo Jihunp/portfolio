@@ -47,7 +47,7 @@ function AnimatedCursor () {
         </div>
         {isAnimatedWord ? <div className='cursor cursor-word'></div> : null}
       </div>
-        <h1>hello this is some code here</h1>
+        <h1>The Ed Talk</h1>
       <div>Passionate about connecting people and writing functional code</div>
     </div>
   )
