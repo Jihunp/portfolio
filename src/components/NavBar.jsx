@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/NavBar.css"
 
 
-function NavBar() {
+const NavBar = () => {
   return (
     <nav className='navbar'>
       <div className='navbar__circle'>

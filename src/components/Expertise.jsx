@@ -1,7 +1,4 @@
-
-
-
-function Expertise() {
+const Expertise = () => {
 
 
   return (
