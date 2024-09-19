@@ -4,11 +4,11 @@
 
 // import NavBar from "../components/NavBar"
 import "../styles/Home.css"
-import React from 'react'
+// import React from 'react'
 import AnimatedCursor from "../components/AnimatedCursor"
 // import NavBar from "../components/NavBar"
 import DisappearingNav from "../components/DisappearingNavBar"
-import Projects from "../components/Projects"
+// import Projects from "../components/Projects"
 import SpecialProjects from "../components/SpecialProjects"
 
 
@@ -26,7 +26,7 @@ function Home() {
           </div>
           <h1>My Expertise</h1>
           <SpecialProjects></SpecialProjects>
-          <Projects></Projects>
+          {/* <Projects></Projects> */}
           <h1>My Experience</h1>
 
         </div>
