@@ -2,10 +2,6 @@ body, * {
   cursor: auto;
 }
 
-body {
-  font-family: Montserrat, sans-serif;
-}
-
 .shapes {
   position: relative;
   height: 45vh;
@@ -85,9 +81,9 @@ body {
 .cursor {
   position: fixed;
   background: #2128bd;
-  /* width: 15px;
+  width: 15px;
   height: 15px;
-  margin: -10px 0 0 -10px; */
+  margin: -10px 0 0 -10px;
   border-radius: 50%;
   will-change: transform;
   user-select: none;
