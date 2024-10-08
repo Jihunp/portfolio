@@ -13,8 +13,8 @@ const Profile = () => {
       <div className="profile-description">
         <h2>Ed J Park</h2>
         <p>
-          I'm a passionate software engineer with a focus on frontend and full-stack development. 
-          I love building intuitive and dynamic user experiences.
+          {`I'm a passionate software engineer with a focus on frontend and full-stack development.
+          I love building intuitive and dynamic user experiences.`}
         </p>
       </div>
     </div>

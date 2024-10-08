@@ -4,6 +4,7 @@ import AnimatedCursor from "../components/AnimatedCursor"
 import DisappearingNav from "../components/DisappearingNavBar"
 import SpecialProjects from "../components/SpecialProjects"
 import Profile from "../components/Profile"
+import FloatingCard from "../components/FloatingCard"
 
 function Home() {
 
@@ -14,6 +15,8 @@ function Home() {
         <DisappearingNav />
         <AnimatedCursor/>
         <Profile/>
+        <FloatingCard />
+
         <div>
           A little about me
         </div>
