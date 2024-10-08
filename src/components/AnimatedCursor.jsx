@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import "../styles/AnimatedCursor.css";
 import "../App.css";
 import gsap from "gsap";
+import "../components/Profile"
 
 const AnimatedCursor = () => {
   const [mousePos, setMousePos] = useState({x: 0, y: 0});
@@ -52,7 +53,7 @@ const AnimatedCursor = () => {
             className="animated-word-subtitle"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
-            Software Deveoper, Front End & Full Stack
+            Software Developer, Front End & Full Stack
           </h4>
         </div>
         {isAnimatedWord ? <div className="cursor cursor-word"></div> : null}
